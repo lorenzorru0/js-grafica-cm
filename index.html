@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- /Google font -->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Playground</title>
+</head>
+<body>
+    
+    <h1>Build your own playground</h1>
+
+    <div id="containerForm" class="container-form">
+        
+        <label for="numberCells">Insert the number of cells per row for your playground </label>
+        <select name="numberCells" id="numberCells">
+            <option value="" disabled="disabled" selected="selected">Choose</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <div>
+            <button id="create" class="btn">CREATE</button>
+        </div>
+    </div>
+
+    <div id="error" class="container-error">
+        
+    </div>
+
+    <div id="playground" class="playground">
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
